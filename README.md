@@ -89,7 +89,7 @@ Before System:
   CRM sync             →  Manual, error-prone
 
 After System:
-  Response latency     →  ~3 seconds ⚡ (97% reduction)
+  Response latency     →  ~5 seconds ⚡ (97% reduction)
   Daily capacity       →  100+ conversations (3x throughput)
   CRM sync             →  Automated, zero duplicates ✅
 ```
@@ -145,9 +145,9 @@ Lead data + conversation outcome synced to Zoho Bigin with email-based deduplica
 
 | Version | Latency | What Changed |
 |---------|---------|--------------|
-| v1.0 | ~12 sec | Initial implementation |
-| v1.5 | ~6 sec | Async API calls + connection pooling |
-| v2.0 | ~3 sec | Parallel RAG retrieval + response caching |
+| v1.0 | ~2 min | Initial implementation |
+| v1.5 | ~8 sec | Async API calls + connection pooling |
+| v2.0 | ~5 sec | Parallel RAG retrieval + response caching |
 
 ---
 
