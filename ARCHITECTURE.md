@@ -104,7 +104,7 @@ flowchart TD
 
 | Metric | Value |
 |--------|-------|
-| End-to-end latency | ~3 seconds |
+| End-to-end latency | ~5 seconds |
 | Daily conversations | 100+ |
 | Intent detection accuracy | 90%+ |
 | CRM duplicate contacts | 0 |
